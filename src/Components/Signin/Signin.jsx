@@ -19,7 +19,7 @@ export default function Login() {
       );
       console.log(data);
       localStorage.setItem("userToken", data.token);
-      navigate('/E-commerce-React/');
+      navigate('/try4/');
       setUserData(data.token)
       setLoading(false);
     } catch (err) {
