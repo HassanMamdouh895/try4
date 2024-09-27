@@ -11,7 +11,7 @@ export default function Nav() {
     //3 
     localStorage.removeItem("userToken")
     setUserData(null)
-    navigator("/E-commerce-React/login")
+    navigator("/try4/login")
     
   }
   return (
